@@ -9,8 +9,10 @@ Before you begin, ensure you have Rust installed on your system. Follow the [Rus
 ## Getting Started
 Clone this repository and navigate into the project directory:
 
-    git clone [URL to your repository]
-    cd rust_firewall
+    git clone https://github.com/Amirhousain110/Apollyon.git
+    cd Apollyon
+    cargo build -r
+    ./target/release/apo  
 
 ## Features
 - **Rule Definition**: Define rules based on source IP, destination port, and other criteria.
@@ -25,4 +27,4 @@ Clone this repository and navigate into the project directory:
 Contributions to this project are welcome. Please submit a pull request or open an issue to suggest improvements.
 
 ## License
-This project is licensed under the GPL 
+This project is licensed under the MIT
